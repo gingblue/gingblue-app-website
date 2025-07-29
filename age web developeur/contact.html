@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - GINGBLUE-APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header avec navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>GINGBLUE-APP</h2>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="applications.html" class="nav-link">DailyCore</a>
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Contact -->
+    <section class="hero-contact">
+        <div class="container">
+            <div class="hero-contact-content">
+                <h1>Contact us</h1>
+                <p class="lead">Do you have a project? A question? Don't hesitate to contact us. We would be delighted to chat with you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Main -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p>Pour toute demande d'information ou collaboration</p>
+                        <a href="mailto:emoji.aichat@gmail.com" class="contact-link">emoji.aichat@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">🚀</div>
+                        <h3>Projets & Collaborations</h3>
+                        <p>Vous avez une idée d'application ou souhaitez collaborer avec nous ?</p>
+                        <a href="mailto:emoji.aichat@gmail.com?subject=Collaboration" class="contact-link">Parlons-en</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">💼</div>
+                        <h3>Business & Investissement</h3>
+                        <p>Intéressé par investir dans GingBlue App ou établir un partenariat ?</p>
+                        <a href="mailto:emoji.aichat@gmail.com?subject=Business" class="contact-link">Contactez-nous</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">🐛</div>
+                        <h3>Support & Feedback</h3>
+                        <p>Un bug à signaler ou des suggestions d'amélioration ?</p>
+                        <a href="mailto:emoji.aichat@gmail.com?subject=Support" class="contact-link">Nous aider</a>
+                    </div>
+                </div>
+
+                <div class="contact-form-section">
+                    <div class="form-container">
+                        <h2>Envoyez-nous un message</h2>
+                        <p>Remplissez ce formulaire et nous vous répondrons dans les plus brefs délais.</p>
+                        
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nom complet *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company">Entreprise / Organisation</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Sujet *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Sélectionnez un sujet</option>
+                                    <option value="general">Demande générale</option>
+                                    <option value="collaboration">Collaboration</option>
+                                    <option value="business">Opportunité business</option>
+                                    <option value="investment">Investissement</option>
+                                    <option value="support">Support technique</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="other">Autre</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Décrivez votre demande ou votre projet..."></textarea>
+                            </div>
+                            
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    <span class="checkmark"></span>
+                                    Je souhaite recevoir des nouvelles de GingBlue App et de ses applications
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quickly find answers to your questions</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How can I test DailyCore?</h3>
+                    <p>DailyCore is available on TestFlight for beta testers. Contact us to get early access.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>When will DailyCore be available to the general public?</h3>
+                    <p>DailyCore is currently in the finalization phase and should be available on the App Store soon.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I invest in GINGBLUE-APP?</h3>
+                    <p>We are open to discussions with investors interested in our vision. Contact us to learn more.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is DailyCore available on Android?</h3>
+                    <p>Currently, we focus on iOS. An Android version is considered based on market demand.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How does the AI technology in DailyCore work?</h3>
+                    <p>We use advanced AI APIs like Mistral and emotional analysis algorithms to provide a personalized experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>GINGBLUE-APP</h3>
+                    <p>Innovative mobile development studio</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Navigation</h4>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="applications.html">DailyCore</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Application</h4>
+                        <a href="applications.html">DailyCore</a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>emoji.aichat@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GINGBLUE-APP. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
