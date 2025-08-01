@@ -99,7 +99,13 @@
                         <h3>DailyCore</h3>
                         <p class="app-subtitle">The all-in-one super-app</p>
                         <p>A comprehensive application that centralizes your personal organization, mental health, nutrition, and sports in an elegant AI-powered interface.</p>
-                        <a href="applications.html" class="btn btn-primary">Discover DailyCore</a>
+                        <div class="app-main-buttons">
+                            <a href="applications.html" class="btn btn-primary">Discover DailyCore</a>
+                        </div>
+                        <div class="legal-buttons">
+                            <a href="terms.html" class="btn btn-outline">Terms of Use</a>
+                            <a href="privacy.html" class="btn btn-outline">Privacy Policy</a>
+                        </div>
                     </div>
                 </div>
                 
@@ -108,52 +114,24 @@
                     <div class="carousel-container">
                         <button class="carousel-btn carousel-btn-left" id="prevBtn">❮</button>
                         <div class="carousel-wrapper">
-                            <div class="carousel-track" id="carouselTrack">
-                                <div class="carousel-item" data-index="0">
-                                    <img src="6.9%22 Display/Mokup 1.jpg" alt="DailyCore Screenshot 1" class="mockup">
-                                    <h4>Welcome to Your DailyCore</h4>
-                                </div>
-                                <div class="carousel-item" data-index="1">
-                                    <img src="6.9%22 Display/Mokup 2.jpg" alt="DailyCore Screenshot 2" class="mockup">
-                                    <h4>Ask EmojiAI any question</h4>
-                                </div>
-                                <div class="carousel-item" data-index="2">
-                                    <img src="6.9%22 Display/Mokup 3.jpg" alt="DailyCore Screenshot 3" class="mockup">
-                                    <h4>EmojiAI That Powers Your Features</h4>
-                                </div>
-                                <div class="carousel-item" data-index="3">
-                                    <img src="6.9%22 Display/Mokup 4.jpg" alt="DailyCore Screenshot 4" class="mockup">
-                                    <h4>Smart Nutrition Hub</h4>
-                                </div>
-                                <div class="carousel-item" data-index="4">
-                                    <img src="6.9%22 Display/Mokup 5.jpg" alt="DailyCore Screenshot 5" class="mockup">
-                                    <h4>Visualize Your Food Progress</h4>
-                                </div>
-                                <div class="carousel-item" data-index="5">
-                                    <img src="6.9%22 Display/Mokup 6.jpg" alt="DailyCore Screenshot 6" class="mockup">
-                                    <h4>870+ Exercises to Build Muscle</h4>
-                                </div>
-                                <div class="carousel-item" data-index="6">
-                                    <img src="6.9%22 Display/Mokup 7.jpg" alt="DailyCore Screenshot 7" class="mockup">
-                                    <h4>Plan Your Day with Ease</h4>
-                                </div>
-                                <div class="carousel-item" data-index="7">
-                                    <img src="6.9%22 Display/Mokup 8.jpg" alt="DailyCore Screenshot 8" class="mockup">
-                                    <h4>Track Habits Over Time</h4>
-                                </div>
-                                <div class="carousel-item" data-index="8">
-                                    <img src="6.9%22 Display/Mokup 9.jpg" alt="DailyCore Screenshot 9" class="mockup">
-                                    <h4>Build Your Ideal Routine</h4>
-                                </div>
-                                <div class="carousel-item" data-index="9">
-                                    <img src="6.9%22 Display/Mokup 10.jpg" alt="DailyCore Screenshot 10" class="mockup">
-                                    <h4>Achieve Your Goals</h4>
-                                </div>
+                            <div class="carousel-image-container">
+                                <img id="currentMockup" src="6.9%22 Display/Mokup 1.jpg" alt="DailyCore Screenshot" class="mockup-image">
                             </div>
                         </div>
                         <button class="carousel-btn carousel-btn-right" id="nextBtn">❯</button>
                     </div>
-                    <div class="carousel-indicators" id="carouselIndicators"></div>
+                    <div class="carousel-indicators" id="carouselIndicators">
+                        <button class="indicator active" data-index="0"></button>
+                        <button class="indicator" data-index="1"></button>
+                        <button class="indicator" data-index="2"></button>
+                        <button class="indicator" data-index="3"></button>
+                        <button class="indicator" data-index="4"></button>
+                        <button class="indicator" data-index="5"></button>
+                        <button class="indicator" data-index="6"></button>
+                        <button class="indicator" data-index="7"></button>
+                        <button class="indicator" data-index="8"></button>
+                        <button class="indicator" data-index="9"></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -187,8 +165,23 @@
                         <a href="contact.html">Contact</a>
                     </div>
                     <div class="footer-section">
-                        <h4>Application</h4>
-                        <a href="applications.html">DailyCore</a>
+                        <h4>Applications</h4>
+                        <a href="applications.html">Nos Apps</a>
+                        <a href="applications.html#dailycore">DailyCore</a>
+                        <a href="#">Télécharger</a>
+                        <a href="#">Mises à jour</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Support</h4>
+                        <a href="contact.html">Contact</a>
+                        <a href="about.html">À propos</a>
+                        <a href="#">Documentation</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Légal</h4>
+                        <a href="#">Mentions légales</a>
+                        <a href="#">Cookies</a>
                     </div>
                 </div>
                 <div class="footer-contact">
